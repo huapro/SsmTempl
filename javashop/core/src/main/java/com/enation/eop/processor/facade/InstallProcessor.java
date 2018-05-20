@@ -21,14 +21,15 @@ public class InstallProcessor implements IEopProcessor {
 		HttpServletResponse httpResponse = ThreadContextHolder.getHttpResponse();
 		HttpServletRequest httpRequest = ThreadContextHolder.getHttpRequest();
 		String uri = httpRequest.getServletPath();
-		
+
 		if (!uri.startsWith("/install")	&& EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")) {
-			httpResponse.sendRedirect(httpRequest.getContextPath() + "/install");
+			httpResponse.sendRedirect(httpRequest.getContextPath() + "/install");  //TODO 如果开头不为"/install"
+			// todo 且没有install.lock
 			return true;
 		}
 		
 		if (uri.startsWith("/install")) {
-			if( EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")){
+			if( EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")){ //单"/install" 进一步根据是否有install.lock判断 是否需要安装 没有则返回false
 				return false; //要由chain处理
 			}else{
 				return true; //拒绝再执行

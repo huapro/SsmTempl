@@ -37,6 +37,7 @@ import com.enation.framework.context.webcontext.ThreadContextHolder;
  * @created 12-十月-2009 10:30:23
  * @version 2.0: 1.简化类解构<br>
  *          2.不再由ioUtils post string而是直接由各个处理器自己post给HttpServlertResponse的流
+ *          所有的访问均要进入此过滤器
  * 
  */
 public class DispatcherFilter implements Filter {
@@ -73,7 +74,7 @@ public class DispatcherFilter implements Filter {
 		if (uri.endsWith(".properties")) {
 			return;
 		}
-
+//自定义过滤器 确定是否进入安装程序 2018-05-20  17:30 Charles
 		// eop上下文初始化
 		RequestEventSubject requestEventSubject = new RequestEventSubject();
 		EopContextIniter.init(httpRequest, httpResponse, requestEventSubject);
@@ -92,9 +93,9 @@ public class DispatcherFilter implements Filter {
 			}
 			// 安装程序
 			if (uri.startsWith("/install")
-					|| EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")) {
-				boolean result = new InstallProcessor().process();
-				if (!result) {
+					|| EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")) {//TODO 如果没有install.lock 或者访问路径为/install 则文件则进行InstallProcessor().process();    2018-05-20  17:32 Charles
+				boolean result = new InstallProcessor().process(); //没有安装则返回false
+				if (!result) {// 如果没有安装返回false 则此！result 为true 则执行过滤器当做正常请求应答 2018-05-20  18:24 Charles
 					chain.doFilter(httpRequest, httpResponse);
 				}
 				return;

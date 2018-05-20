@@ -23,6 +23,8 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
+	<!--<param-name>注意此处扫描配置文件的方式 2018-05-20  17:17 Charles</param-name>-->
+
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
@@ -59,7 +61,8 @@
     	<filter-name>Compress</filter-name>
     	<url-pattern>*.css</url-pattern>
 	</filter-mapping>
-	
+
+	<!--字符集-->
 	<filter>
 		<filter-name>encodingFilter</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -77,6 +80,7 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
+<!--自定义过滤器，所有访问均要经过此过滤器-->
 	<filter>
 		<filter-name>dispatcherFilter</filter-name>
 		<filter-class>com.enation.eop.DispatcherFilter</filter-class>
@@ -103,6 +107,7 @@
 	</filter-mapping>
 	<!-- Shiro filter end -->
 
+	<!--springmvc dispacherservlet 2018-05-20  17:44 Charles-->
 	<servlet>
 		<servlet-name>spring-servlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
