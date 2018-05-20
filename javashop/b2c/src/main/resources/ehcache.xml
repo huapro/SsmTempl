@@ -1,5 +1,5 @@
 <ehcache>
-	<diskStore path="${user.dir}/temp" />
+	<diskStore path="${user.home}/temp" />
 	<defaultCache maxElementsInMemory="25600" eternal="true" overflowToDisk="true" />
     <cache name="widgetCache" maxElementsInMemory="51200" eternal="false" overflowToDisk="true" timeToIdleSeconds="0" timeToLiveSeconds="30" />
     <cache name="appCache" maxElementsInMemory="25600" eternal="true" overflowToDisk="true"/>
