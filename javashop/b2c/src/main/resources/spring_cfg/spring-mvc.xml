@@ -42,6 +42,7 @@
     <bean id="viewResolver"  
         class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">  
         <property name="viewClass"  value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+        <!--视图解析器 后缀为".html"2018-05-20  23:45 Charles-->
         <property name="suffix" value=".html" />  
         <property name="contentType" value="text/html;charset=UTF-8" />  
         <property name="exposeRequestAttributes" value="true" />  

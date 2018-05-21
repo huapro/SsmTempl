@@ -13,6 +13,7 @@ import com.enation.framework.context.webcontext.ThreadContextHolder;
  * @author kingapex
  *2015-3-13
  */
+
 public class InstallProcessor implements IEopProcessor {
 
 	@Override
@@ -23,8 +24,8 @@ public class InstallProcessor implements IEopProcessor {
 		String uri = httpRequest.getServletPath();
 
 		if (!uri.startsWith("/install")	&& EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")) {
-			httpResponse.sendRedirect(httpRequest.getContextPath() + "/install");  //TODO 如果开头不为"/install"
-			// todo 且没有install.lock
+			httpResponse.sendRedirect(httpRequest.getContextPath() + "/install");  //TODO 2018-05-21  09:05 Charles 重点  ！！！！如果开头不为"/install"且没有install.lock 则
+			// todo
 			return true;
 		}
 		

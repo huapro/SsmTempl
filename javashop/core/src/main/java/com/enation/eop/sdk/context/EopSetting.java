@@ -98,9 +98,9 @@ public class EopSetting {
 		
 		File installLockFile = new File(StringUtil.getRootPath()+"/install/install.lock");
 		if( installLockFile.exists() ){
-			INSTALL_LOCK = "YES"; //如果存在则不能安装
+			INSTALL_LOCK = "YES"; // TODO Charles 如果存在则不能安装  2018-05-20  20:30 Charles
 		}else{
-			INSTALL_LOCK = "NO"; //如果不存在，则认为是全新的，跳到install页
+			INSTALL_LOCK = "NO"; //如果不存在，则认为是全新的，跳到install页 2018-05-20  20:30 Charles
 		}
 		
 		

@@ -120,7 +120,7 @@ public class DispatcherFilter implements Filter {
 
 			}
 
-			if (uri.equals("/") || uri.equals("")) {
+			if (uri.equals("/") || uri.equals("")) { //url equall
 				uri = "index.html";
 			}
 
