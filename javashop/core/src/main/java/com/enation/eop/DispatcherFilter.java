@@ -96,8 +96,8 @@ public class DispatcherFilter implements Filter {
 					|| EopSetting.INSTALL_LOCK.toUpperCase().equals("NO")) {//TODO 如果没有install.lock 或者访问路径为/install 则文件则进行InstallProcessor().process();    2018-05-20  17:32 Charles
 				boolean result = new InstallProcessor().process(); //没有安装则返回false
 				if (!result) {// 如果没有安装返回false 则此！result 为true 则执行过滤器当做正常请求应答 2018-05-20  18:24 Charles
-					chain.doFilter(httpRequest, httpResponse);
-				}
+                    chain.doFilter(httpRequest, httpResponse);
+                }
 				return;
 			}
 			// 后台处理器
@@ -120,7 +120,7 @@ public class DispatcherFilter implements Filter {
 
 			}
 
-			if (uri.equals("/") || uri.equals("")) { //url equall
+			if (uri.equals("/") || uri.equals("")) { //ur
 				uri = "index.html";
 			}
 
