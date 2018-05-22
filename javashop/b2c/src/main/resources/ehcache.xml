@@ -1,3 +1,4 @@
+<!--ehcache缓存 2018-05-22  16:50 Charles-->
 <ehcache>
 	<diskStore path="${user.home}/temp" />
 	<defaultCache maxElementsInMemory="25600" eternal="true" overflowToDisk="true" />

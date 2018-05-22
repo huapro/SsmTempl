@@ -80,8 +80,8 @@ public class EopInstallController {
 		 * 保存eop.properties 参数
 		 */
 		saveEopParams(dbtype);
-		
-		
+
+
 		/**
 		 * 判断数据库类型
 		 */
