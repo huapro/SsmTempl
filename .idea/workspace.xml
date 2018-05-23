@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="b2c:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/app/base/test/BaseInstall.java" line="21" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java" line="23" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java" description="dispatcherfilter 执行完毕后执行" line="162" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java" description="如果没有安装过（没有install.lock)继续执行前处理器执行链" line="98" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" description="扫描配置文件" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" description="rg.springframework.web.servlet.DispatcherServlet" line="115" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" description="URL pattern 重定向" line="1019" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/listener/EopContextLoaderListener.java" description="EopLinstener 负责初始化站点缓存" line="20" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/FacadeProcessor.java" line="21" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/listener/EopContextLoaderListener.java" description="contextInitialized" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" description="web.xml 解析 2018-05-23  19:12 Charles" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" description="初始化购买时段分布统计图" line="82" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" description="// 2.初始化统计图" line="98" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/admin/header.html" description="统计图下载选项" line="291" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" description="画图表" line="242" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" description="//AJAX 获得数据 2018-05-23  10:01 Charles" line="81" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java" description="MVC 返回 jason" line="63" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/impl/FlowStatisticsManager.java" description="查询数据" line="88" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/impl/FlowStatisticsManager.java" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/plugin/AutoRegisterPluginsBundle.java" description="获取插件列表" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/flow_statistics.html" description="按钮事件在/flow_statistics.js 中定义" line="31" />
+    <bookmark url="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" description="servicen 方法要么执行 processRequest 要么执行super.service" line="837" />
+    <bookmark url="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" description="Framework doGet 方法" line="856" />
+    <bookmark url="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java" description="将ServletRequest 强转为HttpServletRequest 紧接着运行service （函数重载） 2018-05-23  16:50 Charles" line="769" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" description="web.xml解析 2018-05-23  19:27 Charles" line="147" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" line="167" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8660087a-f10b-47a9-b3a4-36c2552dab2a" name="Default" comment="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/b2c_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/javashop/cms-core/target/" />
+    <ignored path="$PROJECT_DIR$/javashop/shop-core/target/" />
+    <ignored path="$PROJECT_DIR$/javashop/b2c/target/" />
+    <ignored path="$PROJECT_DIR$/javashop/core/target/" />
+    <ignored path="$PROJECT_DIR$/javashop/target/" />
+    <ignored path="$PROJECT_DIR$/../TomcatLearn/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/easy_shopping$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1526857025403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="安装页面跳转问题">
+      <favorite_root url="com.enation.eop.processor.facade.InstallProcessor" module="core" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="769" selection-start-line="769" selection-end-line="769" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cookie.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/Cookie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5625">
+              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EopContextLoaderListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/listener/EopContextLoaderListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebXml.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/WebXml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2506">
+              <caret line="666" column="22" lean-forward="true" selection-start-line="666" selection-start-column="22" selection-end-line="666" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JspCServletContext.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>下载PDF文档</find>
+      <find>订单销售额统计</find>
+      <find>Highcharts.</find>
+      <find>et-flow-statistics</find>
+      <find>options</find>
+      <find>get-flow-statistics</find>
+      <find>getFlowStatistics</find>
+      <find>FlowStatisticsManager</find>
+      <find>lang</find>
+      <find>somemsgList</find>
+      <find>按年统计</find>
+      <find>按月统计</find>
+      <find>statistics_type</find>
+      <find>按照年统计</find>
+      <find>开始搜索</find>
+      <find>search_data</find>
+      <find>get-price-sales-json</find>
+      <find>flow-statistics-html</find>
+      <find>flow_statistics.</find>
+      <find>flow_statistics</find>
+      <find>flow_statistics.js</find>
+      <find>search_statis</find>
+      <find>do</find>
+      <find>doGet</find>
+      <find>service.</find>
+      <find>contextConfigLocation</find>
+      <find>service</find>
+      <find>web.xml</find>
+      <find>context-param</find>
+      <find>WEB_XML_LOCATION</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../TomcatLearn" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/timerContext.xml" />
+        <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/context/EopSetting.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/install/index.html" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/install/step1.html" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/install/install/index.html" />
+        <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java" />
+        <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" />
+        <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/admin/header.html" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" />
+        <option value="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/m2/" />
+        <option name="nonRecursive" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/m2/settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1532" />
+    <option name="height" value="962" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="b2c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.servlet:javax.servlet-api:3.0.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.servlet:javax.servlet-api:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.servlet-api-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.servlet:javax.servlet-api:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.servlet-api-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.servlet:javax.servlet-api:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.servlet-api-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="b2c" type="cbb8eebc:String" user="b2c" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="b2c" type="cbb8eebc:String" user="b2c" />
+              <item name="javashop/b2c" type="cbb8eebc:String" user="javashop/b2c" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="b2c" type="cbb8eebc:String" user="b2c" />
+              <item name="javashop/b2c" type="cbb8eebc:String" user="javashop/b2c" />
+              <item name="src/main/webapp/shop/admin/statistics/flow/js" type="cbb8eebc:String" user="src/main/webapp/shop/admin/statistics/flow/js" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shop-core" type="cbb8eebc:String" user="shop-core" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shop-core" type="cbb8eebc:String" user="shop-core" />
+              <item name="javashop/shop-core" type="cbb8eebc:String" user="javashop/shop-core" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shop-core" type="cbb8eebc:String" user="shop-core" />
+              <item name="javashop/shop-core" type="cbb8eebc:String" user="javashop/shop-core" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shop-core" type="cbb8eebc:String" user="shop-core" />
+              <item name="javashop/shop-core" type="cbb8eebc:String" user="javashop/shop-core" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="com/enation/app/shop/core/statistics/action" type="cbb8eebc:String" user="com/enation/app/shop/core/statistics/action" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javashop/b2c/src/main/webapp/install" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javashop/b2c/src/main/webapp/install" />
+      <recent name="$PROJECT_DIR$/javashop/b2c/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/javashop/b2c/src/main/webapp/admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="easy-shopping" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="javashop" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/b2c/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="b2c:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/b2c" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_easy-shopping_5" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49315" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="b2c:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8660087a-f10b-47a9-b3a4-36c2552dab2a" name="Default" comment="" />
+      <created>1526800728114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526800728114</updated>
+      <workItem from="1526800729938" duration="53000" />
+      <workItem from="1526805625769" duration="326000" />
+      <workItem from="1526806331624" duration="37720000" />
+      <workItem from="1526875857347" duration="3428000" />
+      <workItem from="1526882287882" duration="1286000" />
+      <workItem from="1526883609045" duration="79000" />
+      <workItem from="1526883754627" duration="419000" />
+      <workItem from="1526884207527" duration="588000" />
+      <workItem from="1526885011018" duration="282000" />
+      <workItem from="1526885322211" duration="7323000" />
+      <workItem from="1526895254128" duration="1331000" />
+      <workItem from="1526945803930" duration="2876000" />
+      <workItem from="1526993061164" duration="480000" />
+      <workItem from="1527002781495" duration="32000" />
+      <workItem from="1527002911760" duration="2000" />
+      <workItem from="1527038803487" duration="10159000" />
+      <workItem from="1527061890924" duration="1146000" />
+      <workItem from="1527063604866" duration="6843000" />
+    </task>
+    <task id="LOCAL-00001" summary="配置运行成功 tomcat 配置 vm opton -Dfile.encoding=UTF-8 2018-05-20  16:58 Charles">
+      <created>1526806712047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526806712047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="install安装程序只会运行一次，只有在install.lock不存在，且请求为&quot;/intall&quot; 2018-05-20  18:53 Charles">
+      <created>1526813627706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526813627706</updated>
+    </task>
+    <task id="LOCAL-00003" summary="重定向没有加 / 为什么自动加了斜杠？&#10;加斜杠如果符合条件会跳转到 index.html欢迎页面&#10;welcome 页面重点关注&#10; 2018-05-20  18:53 Charles">
+      <created>1526867132514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526867132515</updated>
+    </task>
+    <task id="LOCAL-00004" summary="重定向没有加 / 为什么自动加了斜杠？ ？？？？&#10;加斜杠如果符合条件会跳转到 index.html欢迎页面  ？？？？&#10;welcome 页面重点关注 锁定问题✔️&#10; 2018-05-20  18:53 Charles">
+      <created>1526875948644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526875948644</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tomcat的url-pattern的源码分析 &#10;默认servlet处理&#10;2018-05-21  15:04 Charles">
+      <created>1526886269479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526886269480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ehcache 2018-05-22  16:53 Charles">
+      <created>1526979241386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526979241386</updated>
+    </task>
+    <task id="LOCAL-00007" summary="easyUI highchart 2018-05-23  10:02 Charles&#10;重点关注了highchart 过程">
+      <created>1527041005314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527041005315</updated>
+    </task>
+    <task id="LOCAL-00008" summary="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles">
+      <created>1527071605084</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527071605084</updated>
+    </task>
+    <task id="LOCAL-00009" summary="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles">
+      <created>1527075211533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527075211533</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74373000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1532" height="962" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32923076" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.34015346" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.24347825" visible="true" weight="0.22483222" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49565217" weight="0.21184371" />
+      <window_info anchor="right" id="Structure" order="12" sideWeight="0.75652176" side_tool="true" visible="true" weight="0.22483222" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4420513" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.41734105" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35953757" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37391305" visible="true" weight="0.28590605" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33526012" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" sideWeight="0.62608695" side_tool="true" visible="true" weight="0.28590605" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="301" height="762" id="Documentation" order="11" side_tool="true" visible="true" weight="0.21306472" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3283237" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32947975" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3043478" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32923076" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.35953757" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.29650092" side_tool="true" visible="true" weight="0.26495728" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3283237" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.03663004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7034991" visible="true" weight="0.26495728" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.50051284" side_tool="true" weight="0.32539684" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3699422" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.37225434" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置运行成功 tomcat 配置 vm opton -Dfile.encoding=UTF-8 2018-05-20  16:58 Charles" />
+    <MESSAGE value="install安装程序只会运行一次，只有在install.lock不存在，且请求为&quot;/intall&quot; 2018-05-20  18:53 Charles" />
+    <MESSAGE value="重定向没有加 / 为什么自动加了斜杠？&#10;加斜杠如果符合条件会跳转到 index.html欢迎页面&#10;welcome 页面重点关注&#10; 2018-05-20  18:53 Charles" />
+    <MESSAGE value="重定向没有加 / 为什么自动加了斜杠？ ？？？？&#10;加斜杠如果符合条件会跳转到 index.html欢迎页面  ？？？？&#10;welcome 页面重点关注 锁定问题✔️&#10; 2018-05-20  18:53 Charles" />
+    <MESSAGE value="tomcat的url-pattern的源码分析 &#10;默认servlet处理&#10;2018-05-21  15:04 Charles" />
+    <MESSAGE value="ehcache 2018-05-22  16:53 Charles" />
+    <MESSAGE value="easyUI highchart 2018-05-23  10:02 Charles&#10;重点关注了highchart 过程" />
+    <MESSAGE value="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/security/AuthFilter.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/security/AuthFilter.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/upload/LocalUploader.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/impl/ExplorerManager.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/impl/ExplorerManager.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/util/RequestUtil.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java</url>
+          <line>874</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java</url>
+          <line>1034</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="50" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getContextPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/database/IDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="101" column="7" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/app/base/test/DaoSupportTestBackup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="281" column="34" selection-start-line="281" selection-start-column="34" selection-end-line="281" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1019" selection-start-line="1019" selection-end-line="1019" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/IFlowStatisticsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/OrderReturnedStatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/model/Collect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/model/DayAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/model/MonthAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/model/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/plugin/sms/AbstractSmsComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/plugin/sms/AbstractSmsPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/plugin/sms/ISmsSendEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/plugin/sms/SmsPluginBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/admin/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="293" column="20" lean-forward="true" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/ueditor/third-party/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7202">
+          <caret line="1543" column="10" lean-forward="true" selection-start-line="1543" selection-start-column="10" selection-end-line="1543" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/plugin/shortmsg/ShortMsgPluginBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/goodsanalysis/goods_sales_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/goods_flow_statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/goods_flow_statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/target/b2c/admin/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/IStatisticsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/GoodsStatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="156" column="34" lean-forward="true" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/goodsanalysis/price_sales_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="163" column="4" lean-forward="true" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/flow_statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/impl/FlowStatisticsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/plugin/AutoRegisterPluginsBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/init.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/component/BaseComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/component/IComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/component/impl/ComponentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/component/IComponentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/test/SpringTestSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#DispatcherServlet#0" />
+            <element signature="e#8562#8589#0" expanded="true" />
+            <element signature="e#8650#8745#0" />
+            <element signature="e#8828#8920#0" />
+            <element signature="e#8997#9088#0" />
+            <element signature="e#9163#9360#0" />
+            <element signature="e#9437#9634#0" />
+            <element signature="e#9711#9938#0" />
+            <element signature="e#10036#10147#0" />
+            <element signature="e#10244#10435#0" />
+            <element signature="e#10508#10607#0" />
+            <element signature="e#10687#10930#0" />
+            <element signature="e#11045#11220#0" />
+            <element signature="e#11335#11508#0" />
+            <element signature="e#11621#11790#0" />
+            <element signature="e#11899#12159#0" />
+            <element signature="e#12274#12514#0" />
+            <element signature="e#12631#12817#0" />
+            <element signature="e#12936#13121#0" />
+            <element signature="e#13224#13297#0" />
+            <element signature="e#13406#13553#0" />
+            <element signature="e#13644#13722#0" />
+            <element signature="initializer##0;class#DispatcherServlet#0" />
+            <element signature="e#13886#13948#0" />
+            <element signature="e#14382#14453#0" />
+            <element signature="e#14506#14577#0" />
+            <element signature="e#14630#14721#0" />
+            <element signature="e#14784#14851#0" />
+            <element signature="e#14902#14990#0" />
+            <element signature="e#15050#15117#0" />
+            <element signature="e#15165#15210#0" />
+            <element signature="e#15259#15301#0" />
+            <element signature="e#15344#15385#0" />
+            <element signature="e#15426#15477#0" />
+            <element signature="e#15527#15578#0" />
+            <element signature="e#15628#15689#0" />
+            <element signature="e#15759#15814#0" />
+            <element signature="e#15874#15917#0" />
+            <element signature="e#15962#16011#0" />
+            <element signature="e#16057#17178#0" />
+            <element signature="e#17225#19499#0" />
+            <element signature="e#19610#19944#0" />
+            <element signature="e#19610#20084#0" />
+            <element signature="e#20087#20421#0" />
+            <element signature="e#20087#20561#0" />
+            <element signature="e#20564#20938#0" />
+            <element signature="e#20564#21118#0" />
+            <element signature="e#21121#21447#0" />
+            <element signature="e#21121#21579#0" />
+            <element signature="e#21582#22187#0" />
+            <element signature="e#21582#22351#0" />
+            <element signature="e#22354#23242#0" />
+            <element signature="e#23365#23428#0" />
+            <element signature="e#23528#23684#0" />
+            <element signature="e#23528#24055#0" />
+            <element signature="e#24058#24250#0" />
+            <element signature="e#24058#24861#0" />
+            <element signature="e#24864#25060#0" />
+            <element signature="e#24864#25688#0" />
+            <element signature="e#25691#25880#0" />
+            <element signature="e#25691#26506#0" />
+            <element signature="e#26509#26702#0" />
+            <element signature="e#26509#27977#0" />
+            <element signature="e#27592#27653#0" />
+            <element signature="e#27980#28178#0" />
+            <element signature="e#29068#29131#0" />
+            <element signature="e#29457#29658#0" />
+            <element signature="e#29457#31144#0" />
+            <element signature="e#30697#30770#0" />
+            <element signature="e#31147#31330#0" />
+            <element signature="e#31147#32082#0" />
+            <element signature="e#32085#32277#0" />
+            <element signature="e#32085#33511#0" />
+            <element signature="e#33137#33196#0" />
+            <element signature="e#33514#33733#0" />
+            <element signature="e#33514#34379#0" />
+            <element signature="e#34382#34665#0" />
+            <element signature="e#34382#34857#0" />
+            <element signature="e#34860#35057#0" />
+            <element signature="e#35153#35537#0" />
+            <element signature="e#35153#35917#0" />
+            <element signature="e#35920#36410#0" />
+            <element signature="e#36412#36442#0" expanded="true" />
+            <element signature="e#35920#37604#0" />
+            <element signature="e#37607#38119#0" />
+            <element signature="e#37607#38276#0" />
+            <element signature="e#38280#38419#0" />
+            <element signature="e#38280#40530#0" />
+            <element signature="e#38853#38920#0" />
+            <element signature="e#40533#41119#0" />
+            <element signature="e#40533#43703#0" />
+            <element signature="e#43706#43752#0" />
+            <element signature="e#43706#43943#0" />
+            <element signature="e#43946#44106#0" />
+            <element signature="e#43946#45438#0" />
+            <element signature="e#45441#45781#0" />
+            <element signature="e#45441#46182#0" />
+            <element signature="e#46045#46174#0" expanded="true" />
+            <element signature="e#46173#46174#0" expanded="true" />
+            <element signature="e#46185#46506#0" />
+            <element signature="e#46185#47366#0" />
+            <element signature="e#47369#47534#0" />
+            <element signature="e#47369#47820#0" />
+            <element signature="e#47823#48054#0" />
+            <element signature="e#47823#48486#0" />
+            <element signature="e#48489#48696#0" />
+            <element signature="e#48489#49284#0" />
+            <element signature="e#49287#49514#0" />
+            <element signature="e#49287#49982#0" />
+            <element signature="e#49985#50485#0" />
+            <element signature="e#49985#51479#0" />
+            <element signature="e#51482#51892#0" />
+            <element signature="e#51482#53298#0" />
+            <element signature="e#53301#53536#0" />
+            <element signature="e#53301#53678#0" />
+            <element signature="e#53681#54372#0" />
+            <element signature="e#53681#54701#0" />
+            <element signature="e#54704#54985#0" />
+            <element signature="e#54988#55365#0" />
+            <element signature="e#55368#55557#0" />
+            <element signature="e#55559#55589#0" expanded="true" />
+            <element signature="e#55368#56687#0" />
+            <element signature="e#55695#55763#0" />
+            <element signature="e#55854#55862#0" expanded="true" />
+            <element signature="e#56270#56339#0" />
+            <element signature="e#56690#56917#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="50" column="52" lean-forward="true" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE-sources.jar!/org/springframework/core/env/EnvironmentCapable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5625">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/listener/EopContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/WebXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2506">
+          <caret line="666" column="22" lean-forward="true" selection-start-line="666" selection-start-column="22" selection-end-line="666" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>b2c:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (b2c)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tomcat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

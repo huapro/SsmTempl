@@ -1,0 +1,41 @@
+Index: javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java	(revision 68ab6771201542b72959acda2b0b575d1c55447d)
++++ javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java	(date 1527044229000)
+@@ -33,7 +33,7 @@
+ 	protected final Logger logger = Logger.getLogger(getClass());
+ 	
+ 	@Autowired
+-	private IFlowStatisticsManager flowStatisticsManager;
++	private IFlowStatisticsManager flowStatisticsManager;    //spring 注入接口
+ 	
+ 	/**
+ 	 * 得到总流量统计html 
+@@ -85,7 +85,7 @@
+ 			// 2.获取数据
+ 			List<Map<String, Object>> list = this.flowStatisticsManager.getFlowStatistics(statisticsType, startDateStamp, endDateStamp);
+ 
+-			return JsonMessageUtil.getListJson(list);
++			return JsonMessageUtil.getListJson(list);  //返回jason
+ 		} catch (RuntimeException e) {
+ 			e.printStackTrace();
+ 			this.logger.error("获取总流量统计出错", e);
+Index: javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js	(revision 68ab6771201542b72959acda2b0b575d1c55447d)
++++ javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js	(date 1527041340000)
+@@ -80,7 +80,7 @@
+ 
+ 	// ajax配置
+ 	var options = { //AJAX 获得数据 2018-05-23  10:01 Charles
+-		url : ctx + "/shop/admin/flowStatistics/get-flow-statistics.do" ,
++		url : ctx + "/shop/admin/flowStatistics/get-flow-statistics.do" ,  //获取数据FlowStatisticsController.java
+ 		data : {'start_date' : dateWhere[0], 'end_date' : dateWhere[1],'statistics_type':dateWhere[2]},
+ 		type : "post",
+ 		dataType:"json",
