@@ -80,7 +80,7 @@ function initFlowStatistics(dateWhere) {
 
 	// ajax配置
 	var options = { //AJAX 获得数据 2018-05-23  10:01 Charles
-		url : ctx + "/shop/admin/flowStatistics/get-flow-statistics.do" ,
+		url : ctx + "/shop/admin/flowStatistics/get-flow-statistics.do" ,  //获取数据FlowStatisticsController.java
 		data : {'start_date' : dateWhere[0], 'end_date' : dateWhere[1],'statistics_type':dateWhere[2]},
 		type : "post",
 		dataType:"json",

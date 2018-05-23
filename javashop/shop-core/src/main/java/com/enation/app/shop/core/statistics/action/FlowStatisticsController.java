@@ -33,7 +33,7 @@ public class FlowStatisticsController {
 	protected final Logger logger = Logger.getLogger(getClass());
 	
 	@Autowired
-	private IFlowStatisticsManager flowStatisticsManager;
+	private IFlowStatisticsManager flowStatisticsManager;    //spring 注入接口
 	
 	/**
 	 * 得到总流量统计html 
@@ -85,7 +85,7 @@ public class FlowStatisticsController {
 			// 2.获取数据
 			List<Map<String, Object>> list = this.flowStatisticsManager.getFlowStatistics(statisticsType, startDateStamp, endDateStamp);
 
-			return JsonMessageUtil.getListJson(list);
+			return JsonMessageUtil.getListJson(list);  //返回jason
 		} catch (RuntimeException e) {
 			e.printStackTrace();
 			this.logger.error("获取总流量统计出错", e);
