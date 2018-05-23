@@ -74,12 +74,12 @@ $(function(){
 });
 
 /**
- * 初始化购买时段分布统计图
+ * 初始化购买时段分布统计图 2018-05-23  09:44 Charles
  */
 function initFlowStatistics(dateWhere) {
 
 	// ajax配置
-	var options = {
+	var options = { //AJAX 获得数据 2018-05-23  10:01 Charles
 		url : ctx + "/shop/admin/flowStatistics/get-flow-statistics.do" ,
 		data : {'start_date' : dateWhere[0], 'end_date' : dateWhere[1],'statistics_type':dateWhere[2]},
 		type : "post",
@@ -96,7 +96,7 @@ function initFlowStatistics(dateWhere) {
 				var conf = getFlowConfig(data.data);
 				
 				// 2.初始化统计图
-				initHistogram("flow_statistics",conf);
+				initHistogram("flow_statistics",conf);  //  2.初始化统计图 2018-05-23  09:48 Charles
 
 			} else {
 				alert("调用action出错：" + data.message);
@@ -240,5 +240,5 @@ function initHistogram(id,conf){
 	        },
 	        series: conf.series
 	    };
-	$("#" + id).highcharts(options);
+	$("#" + id).highcharts(options);  //画图表 被内嵌2018-05-23  10:00 Charles
 };
