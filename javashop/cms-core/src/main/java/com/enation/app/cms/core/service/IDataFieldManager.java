@@ -69,6 +69,6 @@ public interface IDataFieldManager {
 	 * @param ids
 	 * @param sorts
 	 */
-	public void saveSort(Integer[] ids,Integer sorts[]);
+	public void saveSort(Integer[] ids, Integer[] sorts);
 	
 }

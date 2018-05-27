@@ -70,7 +70,7 @@ public class JavaImageIOCreator implements IThumbnailCreator {
 		}
 	}
 
-	public static void main(String args[]){
+	public static void main(String[] args){
 		JavaImageIOCreator creator = new JavaImageIOCreator("d:/1.jpg", "d:/1_j_180.jpg");
 		creator.resize(180, 180);
 	}

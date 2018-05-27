@@ -189,7 +189,7 @@ public class CommentApiController {
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/addComment", produces = MediaType.APPLICATION_JSON_VALUE)
-	public JsonResult addComment(Integer commenttype[],Integer product_id[], Integer goods_id[], String content[],Integer orderid) {
+	public JsonResult addComment(Integer[] commenttype, Integer[] product_id, Integer[] goods_id, String[] content, Integer orderid) {
 		try {
 			
 	

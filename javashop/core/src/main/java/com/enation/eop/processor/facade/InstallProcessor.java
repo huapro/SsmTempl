@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.enation.eop.IEopProcessor;
+import com.enation.eop.sdk.context.EopContext;
 import com.enation.eop.sdk.context.EopSetting;
 import com.enation.framework.context.webcontext.ThreadContextHolder;
 /**
@@ -37,7 +38,7 @@ public class InstallProcessor implements IEopProcessor {
 			}
 			 
 		}
-		
+
 		return true;
 	}
 

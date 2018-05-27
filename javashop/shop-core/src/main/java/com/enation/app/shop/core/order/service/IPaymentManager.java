@@ -116,7 +116,7 @@ public interface IPaymentManager {
 	 * 批量删除支付方式
 	 * @param idArray 支付方式id数组,如果无空则不进行任何操作
 	 */
-	public void delete(Integer idArray[]);
+	public void delete(Integer[] idArray);
 
 	
 	/**

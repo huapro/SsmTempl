@@ -39,7 +39,7 @@ public class ExampleDataInstaller implements IInstaller {
 	public String parseConst(String content){
 		eopsiteSQL = "";
 		Map<String,String> constMap = new HashMap<String,String>();
-		char buf[] = new char[content.length()];
+        char[] buf = new char[content.length()];
 		content.getChars(0,content.length(), buf, 0);
 		CharArrayReader in = new CharArrayReader(buf);
 		BufferedReader reader = new BufferedReader(in);

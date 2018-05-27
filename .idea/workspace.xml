@@ -34,17 +34,46 @@
     <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/flow_statistics.html" description="EasyUI按钮事件在/flow_statistics.js 中定义" line="31" />
     <bookmark url="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" description="Spring MVC service 方法要么执行 processRequest 要么执行super.service" line="837" />
     <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" description="Tomcat" line="81" />
-    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/CoyoteAdapter.java" description="Tomcat" line="63" />
     <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Connector.java" description="Tomcat" line="54" />
     <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ContainerBase.java" description="Tomcat" line="128" />
     <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Connector.java" line="232" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/AbstractProtocol.java" line="83" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/MapperListener.java" line="58" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/MapperListener.java" line="47" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Service.java" description="service 重点关注 2018-05-25  21:10 Charles" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" description="主函数" line="473" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" line="285" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" line="69" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" description="//初始化classLoader，这里分别创建了3个classLoader，common，catalina和sharedLoader，其中common没有父亲，另外两个的父亲是common" line="143" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" description="具体的创建classLoader的方法，第一个参数是当前要创建的ｌｏａｄｅｒ的名字，第二个是这个loader的双亲loader的父亲" line="161" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" description="//创建一个tomcatServer的实例，在bootstrap对象中的启动会调用catalina的start方法来启动tomcat" line="669" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" description="//用于创建server对象" line="523" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" description="Digester对象，然后用它来解析conf/server.xml文件，根据配置的信息来创建相应的对象，例如server对象，因此这个Digester就算是很重要的啦。" line="274" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/ObjectCreateRule.java" line="93" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" line="388" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java" line="378" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java" line="505" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/net/AprEndpoint.java" description="APR运行模式" line="77" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/jni/SSL.java" description="BIO运行模式" line="334" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/transport/nio/NioReceiver.java" description="NioReceiver" line="44" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/impl/AuthActionManager.java" description="在spring .xml 中 隐式配置处理器,在项目中使用注解式开发" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/http11/Http11Processor.java" line="229" />
+    <bookmark url="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapper.java" line="1020" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8660087a-f10b-47a9-b3a4-36c2552dab2a" name="Default" comment="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ant_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/mytest for emmet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/mytest.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/cms-core/src/main/java/com/enation/app/cms/core/service/IDataFieldManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/cms-core/src/main/java/com/enation/app/cms/core/service/IDataFieldManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/api/ValidCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/api/ValidCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/impl/AuthActionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/impl/AuthActionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/dbsolution/impl/DBSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/dbsolution/impl/DBSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/impl/ComboPooledDataSourceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/impl/ComboPooledDataSourceCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/solution/impl/ExampleDataInstaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/solution/impl/ExampleDataInstaller.java" afterDir="false" />
@@ -66,170 +95,8 @@
       <change beforePath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/goods/utils/UrlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/goods/utils/UrlUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/order/service/IPaymentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/order/service/IPaymentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/front/api/member/CommentApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/front/api/member/CommentApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/BeanELResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/BeanELResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/ELProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/ELProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/el/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/JspWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/JspWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagAttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagAttributeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagLibraryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/jsp/tagext/TagLibraryInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Lifecycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Lifecycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Realm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/AbstractCatalinaTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/AbstractCatalinaTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorCreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorCreateTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorInvokeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorInvokeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorQueryTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorQueryTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorSetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/jmx/JMXAccessorSetTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/AuthenticatorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/AuthenticatorBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/DigestAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/DigestAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/FormAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/FormAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/SSLAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/SSLAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/SingleSignOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/authenticator/SingleSignOn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/CoyoteWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/CoyoteWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/OutputBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/OutputBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AccessLogAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AccessLogAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationFilterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationHttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationHttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ApplicationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AprLifecycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AprLifecycleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ContainerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ContainerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardHost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardHost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/deploy/NamingResourcesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/deploy/NamingResourcesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/CsrfPreventionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/CsrfPreventionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/CsrfPreventionFilterBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/CsrfPreventionFilterBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/RequestDumperFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/filters/RequestDumperFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/deploy/FarmWarDeployer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/deploy/FarmWarDeployer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/session/DeltaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/session/DeltaManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/session/DeltaSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ha/session/DeltaSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/HTMLManagerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/HTMLManagerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/ManagerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/ManagerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/StatusTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/StatusTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/host/HTMLHostManagerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/host/HTMLHostManagerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/JmxRemoteLifecycleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanDumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanDumper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/GenericPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/GenericPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JAASCallbackHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JAASCallbackHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JAASMemoryLoginModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JAASMemoryLoginModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JNDIRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/JNDIRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/RealmBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/realm/RealmBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/servlets/CGIServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/servlets/CGIServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/servlets/DefaultServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/servlets/DefaultServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/FileStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/FileStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/JDBCStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/JDBCStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/ManagerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/ManagerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/PersistentManagerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/PersistentManagerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/StandardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/StandardManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/StandardSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/session/StandardSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ssi/SSIServletExternalResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ssi/SSIServletExternalResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ClassLoaderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ClassLoaderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ExpandWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/ExpandWar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/HomesUserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/HomesUserDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/HostConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/HostConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/PasswdUserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/PasswdUserDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Tool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/CatalinaClusterSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/CatalinaClusterSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/ConnectorSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/ConnectorSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/ConnectorStoreAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/ConnectorStoreAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardContextSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardContextSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardEngineSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardEngineSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardHostSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardHostSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardServerSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardServerSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardServiceSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StandardServiceSF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StoreAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StoreAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StoreRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/storeconfig/StoreRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/io/XByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/io/XByteBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/membership/McastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/membership/McastService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/membership/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/membership/Membership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/util/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/util/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/DOMWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/DOMWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/RequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/RequestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/ServerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/SessionIdGeneratorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/SessionIdGeneratorBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/StandardSessionIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/StandardSessionIdGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/AbstractAccessLogValve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/AbstractAccessLogValve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/SSLValve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/SSLValve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/CompressionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/CompressionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ajp/AjpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ajp/AjpMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ajp/AjpProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ajp/AjpProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/http11/Http11Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/http11/Http11Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/AstValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/AstValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/SimpleCharStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/SimpleCharStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/SimpleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/SimpleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/TokenMgrError.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/TokenMgrError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/util/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/util/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/JspC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/JspC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/ELFunctionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/ELFunctionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/ELParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/ELParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/JspReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/JspReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/JspUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/JspUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/SmapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/SmapGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/TldCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/TldCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/compiler/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/BodyContentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/BodyContentImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/JspRuntimeLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/JspRuntimeLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/JspWriterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/runtime/JspWriterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/security/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/security/SecurityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/ASCIIReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/ASCIIReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/UCSReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/UCSReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/UTF8Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/xmlparser/UTF8Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/juli/DateFormatCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/juli/DateFormatCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/juli/logging/DirectJDKLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/juli/logging/DirectJDKLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/naming/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/naming/factory/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/DelegatingConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/DelegatingConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/DelegatingStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/DelegatingStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/PoolingConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/PoolingConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/ConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/PStmtKeyCPDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/PStmtKeyCPDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/PooledConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/dbcp2/cpdsadapter/PooledConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/BaseGenericObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/BaseGenericObjectPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/IntrospectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/IntrospectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/ByteChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/ByteChunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/CharChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/CharChunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/MessageBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/MessageBytes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/UDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/UDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/Utf8Decoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/buf/Utf8Decoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/SecurityCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/SecurityCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/SecurityConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/SecurityConstraint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/WebRuleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/WebRuleSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/CallMethodRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/CallMethodRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/CallParamRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/CallParamRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/LegacyCookieProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/LegacyCookieProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/MimeHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/MimeHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/Parameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/ServerCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/ServerCookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/fileupload/ByteArrayOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/fileupload/ByteArrayOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/fileupload/ThresholdingOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/fileupload/ThresholdingOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/parser/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/http/parser/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/BaseModelMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/BaseModelMBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/BaseNotificationBroadcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/BaseNotificationBroadcaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/ManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/ManagedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/NotificationInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/NotificationInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/OperationInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/OperationInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/Registry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/modules/MbeansDescriptorsIntrospectionSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/modeler/modules/MbeansDescriptorsIntrospectionSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/net/SSLHostConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/net/SSLHostConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/websocket/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/websocket/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/jni/SSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/jni/SSL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/javashop/cms-core/target/" />
@@ -271,100 +138,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractAccessLogValve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/AbstractAccessLogValve.java">
+      <file leaf-file-name="CurrentSettings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/CurrentSettings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbandonedConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbcpayPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/component/payment/plugin/abcpay/AbcpayPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Digester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Connector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkServlet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="837" selection-start-line="837" selection-end-line="837" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flow_statistics.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/flow_statistics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlowStatisticsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="-2018">
+              <caret line="1139" column="518" lean-forward="true" selection-start-line="1139" selection-start-column="518" selection-end-line="1139" selection-end-column="518" />
               <folding>
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#5370#5375#0" expanded="true" />
+                <element signature="e#5496#5501#0" expanded="true" />
+                <element signature="e#17291#17296#0" expanded="true" />
+                <element signature="e#17300#17304#0" expanded="true" />
+                <element signature="e#17304#17308#0" expanded="true" />
+                <element signature="e#150387#150391#0" expanded="true" />
+                <element signature="e#150561#150565#0" expanded="true" />
+                <element signature="e#151883#151888#0" expanded="true" />
+                <element signature="e#249763#249768#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoRegisterPluginsBundle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/plugin/AutoRegisterPluginsBundle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbsoluteOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/group/AbsoluteOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -375,48 +164,54 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lang</find>
-      <find>somemsgList</find>
-      <find>按年统计</find>
-      <find>按月统计</find>
-      <find>statistics_type</find>
-      <find>按照年统计</find>
-      <find>开始搜索</find>
-      <find>search_data</find>
-      <find>get-price-sales-json</find>
-      <find>flow-statistics-html</find>
-      <find>flow_statistics.</find>
-      <find>flow_statistics.js</find>
-      <find>search_statis</find>
-      <find>do</find>
-      <find>doGet</find>
-      <find>service.</find>
-      <find>contextConfigLocation</find>
-      <find>service</find>
-      <find>web.xml</find>
-      <find>WEB_XML_LOCATION</find>
-      <find>context-param</find>
-      <find>测试</find>
-      <find>bootstrap</find>
-      <find>default</find>
-      <find>digester</find>
-      <find>CoyoteAdapter</find>
-      <find>standardservice</find>
-      <find>standardhost</find>
-      <find>standardengine</find>
-      <find>flow_statistics</find>
+      <find>public void start() throws LifecycleException {</find>
+      <find>WebResource classes = resources.getResource(&quot;/WEB-INF/classes&quot;);</find>
+      <find>jarModificationTime</find>
+      <find>mapperli</find>
+      <find>APR</find>
+      <find>BIO</find>
+      <find>NIO</find>
+      <find>applicationcon</find>
+      <find>Bean</find>
+      <find>DefaultListableBeanFactory</find>
+      <find>scan pa</find>
+      <find>packages</find>
+      <find>scan</find>
+      <find>annotation-config</find>
+      <find>/main</find>
+      <find>Controller</find>
+      <find>AutowiredAnnotationBeanPostProcessor</find>
+      <find>log(&quot;process.invoke&quot;, t);</find>
+      <find>HttpProcessor</find>
+      <find>connector</find>
+      <find>createProcessor()</find>
+      <find>createProcessor</find>
+      <find>Http11Processor</find>
+      <find>HttpConnector</find>
+      <find>ActionHook</find>
+      <find>StandardWrapper</find>
+      <find>StandardWrapperFacade</find>
+      <find>standardWrapper</find>
+      <find>option</find>
+      <find>ctrl+;</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../TomcatLearn" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="SCOPE" value="All" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -429,24 +224,37 @@
         <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/DispatcherFilter.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mapper/Mapper.java" />
         <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java" />
-        <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/admin/header.html" />
         <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/js/flow_statistics.js" />
         <option value="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java" />
-        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java" />
         <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/ehcache.xml" />
-        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" />
         <option value="$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/app/base/test/BaseInstall.java" />
         <option value="$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/eop/processor/facade/InstallProcessorTest.java" />
         <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java" />
-        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Lifecycle.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/TokenMgrError.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AccessLogAdapter.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/AbstractAccessLogValve.java" />
         <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java" />
         <option value="$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/component/payment/plugin/abcpay/AbcpayPlugin.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/mytest for emmet.html" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/mytest.css" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ProtocolHandler.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Processor.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Service.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardService.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/HostRuleSet.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappClassLoaderBase.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/jni/SSL.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/impl/AuthActionManager.java" />
+        <option value="$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapper.java" />
       </list>
     </option>
   </component>
@@ -488,10 +296,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
+    <option name="x" value="74" />
     <option name="y" value="23" />
-    <option name="width" value="1120" />
-    <option name="height" value="962" />
+    <option name="width" value="1606" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -505,10 +313,84 @@
       <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javashop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="internet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpServlet.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomcatLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="webDigester&#9;PSI&#9;JAVA://org.apache.tomcat.util.descriptor.web.WebXmlParser#webDigester&#10;webXmlParser&#9;PSI&#9;JAVA://org.apache.tomcat.util.descriptor.web.WebXmlParser" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -516,6 +398,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -710,7 +593,8 @@
     </configuration>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,SHOW_NON_PUBLIC,SHOW_FIELDS,SHOW_PROPERTIES,SHOW_INTERFACES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -747,6 +631,10 @@
       <workItem from="1527119942955" duration="59000" />
       <workItem from="1527120025879" duration="2711000" />
       <workItem from="1527122810074" duration="3528000" />
+      <workItem from="1527149060517" duration="7133000" />
+      <workItem from="1527207854623" duration="935000" />
+      <workItem from="1527243968519" duration="7991000" />
+      <workItem from="1527259041771" duration="9331000" />
     </task>
     <task id="LOCAL-00001" summary="配置运行成功 tomcat 配置 vm opton -Dfile.encoding=UTF-8 2018-05-20  16:58 Charles">
       <created>1526806712047</created>
@@ -818,11 +706,32 @@
       <option name="project" value="LOCAL" />
       <updated>1527076551368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bookmarks">
+      <created>1527149130942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527149130942</updated>
+    </task>
+    <task id="LOCAL-00012" summary="框架 围绕service 处理消息">
+      <created>1527246636766</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527246636766</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tomcat ClassLoader 2018-05-25  22:17 Charles">
+      <created>1527258001391</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527258001391</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91106000" />
+    <option name="totallyTimeSpent" value="116496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +743,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="74" y="23" width="1606" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -844,33 +753,33 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.24652778" visible="true" weight="0.40920717" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49565217" weight="0.21184371" />
-      <window_info anchor="right" id="Structure" order="12" sideWeight="0.5510204" side_tool="true" visible="true" weight="0.16666667" />
+      <window_info active="true" anchor="right" id="Structure" order="12" sideWeight="0.7534722" side_tool="true" visible="true" weight="0.40920717" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4420513" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.41734105" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32820514" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287037" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35953757" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
-      <window_info content_ui="combo" x="215" y="120" width="426" height="865" id="Project" order="0" sideWeight="0.5346939" weight="0.48608536" />
+      <window_info content_ui="combo" x="215" y="120" width="426" height="865" id="Project" order="0" sideWeight="0.712963" visible="true" weight="0.18797953" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33526012" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info active="true" id="Favorites" order="5" sideWeight="0.46530613" side_tool="true" visible="true" weight="0.4072039" />
+      <window_info id="Favorites" order="5" sideWeight="0.28703704" side_tool="true" visible="true" weight="0.18797953" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="301" height="762" id="Documentation" order="11" side_tool="true" visible="true" weight="0.21306472" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32820514" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4489796" visible="true" weight="0.43692023" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.716763" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3043478" />
     </layout>
@@ -929,7 +838,10 @@
     <MESSAGE value="easyUI highchart 2018-05-23  10:02 Charles&#10;重点关注了highchart 过程" />
     <MESSAGE value="servlet httpservlet tomcat与servlet之间的关系 spring mvc dispatchservlet 2018-05-23  18:32 Charles" />
     <MESSAGE value="workspace 变更测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace 变更测试" />
+    <MESSAGE value="bookmarks" />
+    <MESSAGE value="框架 围绕service 处理消息" />
+    <MESSAGE value="Tomcat ClassLoader 2018-05-25  22:17 Charles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tomcat ClassLoader 2018-05-25  22:17 Charles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,11 +948,17 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java</url>
+          <line>286</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="50" />
+      <option name="time" value="52" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1053,435 +971,384 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/m2/org/freemarker/freemarker/2.3.18/freemarker-2.3.18-sources.jar!/freemarker/ext/servlet/FreemarkerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/context/support/HttpRequestHandlerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/WebXmlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/descriptor/web/FragmentJarScannerCallback.java">
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/jasper/servlet/JspCServletContext.java">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/resource/IAdminThemeManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="143" column="20" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/m2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/BackendUiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        <state relative-caret-position="103">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/m2/org/quartz-scheduler/quartz/2.2.3/quartz-2.2.3-sources.jar!/org/quartz/ee/servlet/QuartzInitializerServlet.java">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/impl/cache/RegionsCacheProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Bootstrap.java">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/IAdvManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="120" column="21" lean-forward="true" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        <state relative-caret-position="-176">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/app/base/test/BaseInstall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/test/java/com/enation/eop/processor/facade/InstallProcessorTest.java" />
-    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/MemoryPageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/processor/facade/InstallProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/eop/sdk/listener/EopContextLoaderListener.java">
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/IExplorerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/IMemberManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/IShortUrlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/IAuthActionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/IRoleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/service/auth/impl/AuthActionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="1738">
+          <caret line="125" column="21" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/service/impl/FlowStatisticsManager.java">
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/resources/spring_cfg/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/net/AprEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/loader/WebappLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/app/base/core/action/EopInstallController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/ThemeResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="829" column="17" lean-forward="true" selection-start-line="829" selection-start-column="17" selection-end-line="829" selection-end-column="17" />
+          <caret line="378" selection-start-line="378" selection-end-line="378" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/startup/Catalina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8228">
-          <caret line="612" column="18" selection-start-line="612" selection-start-column="18" selection-end-line="612" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/util/LifecycleMBeanBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/Lifecycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4913">
-          <caret line="304" column="11" selection-start-line="304" selection-start-column="11" selection-end-line="304" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardHost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/ContainerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/CoyoteAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+        <state relative-caret-position="312">
+          <caret line="639" column="20" lean-forward="true" selection-start-line="639" selection-start-column="20" selection-end-line="639" selection-end-column="20" />
           <folding>
-            <element signature="docComment;class#CoyoteAdapter#0" />
-            <element signature="docComment;method#CoyoteAdapter#0;class#CoyoteAdapter#0" />
-            <element signature="method#CoyoteAdapter#0;class#CoyoteAdapter#0" />
-            <element signature="docComment;field#connector#0;class#CoyoteAdapter#0" />
-            <element signature="docComment;field#sm#0;class#CoyoteAdapter#0" />
-            <element signature="method#asyncDispatch#0;class#CoyoteAdapter#0" />
-            <element signature="e#5014#5033#0" />
-            <element signature="e#5495#5557#0" />
-            <element signature="e#7865#7917#0" />
-            <element signature="e#8876#8941#0" />
-            <element signature="e#9899#9963#0" />
-            <element signature="e#10207#10263#0" />
-            <element signature="method#service#0;class#CoyoteAdapter#0" />
-            <element signature="e#12886#12938#0" />
-            <element signature="e#13686#13746#0" />
-            <element signature="e#14393#14453#0" />
-            <element signature="e#15142#15198#0" />
-            <element signature="e#15521#15559#0" />
-            <element signature="e#15707#15768#0" />
-            <element signature="method#prepare#0;class#CoyoteAdapter#0" />
-            <element signature="method#log#0;class#CoyoteAdapter#0" />
-            <element signature="e#17760#17817#0" />
-            <element signature="class#RecycleRequiredException#0;class#CoyoteAdapter#0" />
-            <element signature="method#checkRecycled#0;class#CoyoteAdapter#0" />
-            <element signature="e#19428#19491#0" />
-            <element signature="e#19853#19891#0" />
-            <element signature="docComment;method#postParseRequest#0;class#CoyoteAdapter#0" />
-            <element signature="method#postParseRequest#0;class#CoyoteAdapter#0" />
-            <element signature="e#21468#21540#0" />
-            <element signature="e#21737#21799#0" />
-            <element signature="e#22128#22180#0" />
-            <element signature="e#23897#23937#0" />
-            <element signature="e#24098#24113#0" />
-            <element signature="e#25771#25841#0" />
-            <element signature="e#26578#26620#0" />
-            <element signature="e#27023#27092#0" />
-            <element signature="e#27596#27664#0" />
-            <element signature="e#28952#28999#0" />
-            <element signature="e#29422#29467#0" />
-            <element signature="e#29634#29679#0" />
-            <element signature="e#30067#30114#0" />
-            <element signature="e#30596#30659#0" />
-            <element signature="e#31489#31547#0" />
-            <element signature="e#31872#31930#0" />
-            <element signature="method#doConnectorAuthenticationAuthorization#0;class#CoyoteAdapter#0" />
-            <element signature="e#33911#33971#0" />
-            <element signature="e#34437#34496#0" />
-            <element signature="e#34736#34800#0" />
-            <element signature="e#35058#35119#0" />
-            <element signature="docComment;method#parsePathParameters#0;class#CoyoteAdapter#0" />
-            <element signature="method#parsePathParameters#0;class#CoyoteAdapter#0" />
-            <element signature="e#36194#36265#0" />
-            <element signature="e#36364#36427#0" />
-            <element signature="docComment;method#parseSessionSslId#0;class#CoyoteAdapter#0" />
-            <element signature="method#parseSessionSslId#0;class#CoyoteAdapter#0" />
-            <element signature="docComment;method#parseSessionCookiesId#0;class#CoyoteAdapter#0" />
-            <element signature="method#parseSessionCookiesId#0;class#CoyoteAdapter#0" />
-            <element signature="e#40470#40538#0" />
-            <element signature="docComment;method#convertURI#0;class#CoyoteAdapter#0" />
-            <element signature="method#convertURI#0;class#CoyoteAdapter#0" />
-            <element signature="e#43516#43569#0" />
-            <element signature="docComment;method#convertMB#0;class#CoyoteAdapter#0" />
-            <element signature="method#convertMB#0;class#CoyoteAdapter#0" />
-            <element signature="docComment;method#normalize#0;class#CoyoteAdapter#0" />
-            <element signature="method#normalize#0;class#CoyoteAdapter#0" />
-            <element signature="e#45375#45398#0" />
-            <element signature="e#46233#46299#0" />
-            <element signature="docComment;method#checkNormalize#0;class#CoyoteAdapter#0" />
-            <element signature="method#checkNormalize#0;class#CoyoteAdapter#0" />
-            <element signature="docComment;method#copyBytes#0;class#CoyoteAdapter#0" />
-            <element signature="method#copyBytes#0;class#CoyoteAdapter#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4653#4654#0" expanded="true" />
+            <element signature="e#4711#4712#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/Token.java">
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/manager/ManagerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/el/parser/TokenMgrError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/http2/AbstractStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/component/payment/plugin/paypal/base/AbstractCertificateHttpHeaderAuthStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/component/payment/plugin/alipay/wap/AlipayWapPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="78" column="71" selection-start-line="78" selection-start-column="71" selection-end-line="78" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/goods/model/support/CartDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/AccessLogAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/other/service/impl/ActivityGiftManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/other/service/IActivityGiftManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/goods/model/support/MemberLvDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/valves/AbstractAccessLogValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/dbcp/pool2/impl/AbandonedConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/tribes/group/AbsoluteOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/component/payment/plugin/abcpay/AbcpayPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/digester/Digester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="2644">
+          <caret line="1528" column="7" lean-forward="true" selection-start-line="1528" selection-start-column="7" selection-end-line="1528" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/connector/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="837" selection-start-line="837" selection-end-line="837" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/core/src/main/java/com/enation/framework/plugin/AutoRegisterPluginsBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="246">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#9281#9282#0" expanded="true" />
+            <element signature="e#9316#9317#0" expanded="true" />
+            <element signature="e#10622#10623#0" expanded="true" />
+            <element signature="e#10663#10664#0" expanded="true" />
+            <element signature="e#11014#11015#0" expanded="true" />
+            <element signature="e#11051#11052#0" expanded="true" />
+            <element signature="e#11109#11110#0" expanded="true" />
+            <element signature="e#11161#11162#0" expanded="true" />
+            <element signature="e#14085#14086#0" expanded="true" />
+            <element signature="e#14144#14145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/shop-core/src/main/java/com/enation/app/shop/core/statistics/action/FlowStatisticsController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/tomcat/util/net/AbstractEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/AbstractProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="676" column="48" selection-start-line="676" selection-start-column="48" selection-end-line="676" selection-end-column="48" />
+          <folding>
+            <element signature="e#8861#8862#0" expanded="true" />
+            <element signature="e#8919#8920#0" expanded="true" />
+            <element signature="e#9567#9568#0" expanded="true" />
+            <element signature="e#9629#9630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/mbeans/MBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="222" column="45" lean-forward="true" selection-start-line="222" selection-start-column="45" selection-end-line="222" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/webapps/docs/funcspecs/fs-admin-objects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="101" column="69" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/http11/Http11Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/AbstractProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="41" column="86" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/coyote/ActionHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/PasswordAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/internet/MimePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/internet/InternetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/internet/MimePartDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/mail/internet/MimeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpSessionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpUpgradeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpSessionIdListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpSessionBindingEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/CurrentSettings.vssettings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret column="535" selection-start-column="535" selection-end-column="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/juli/logging/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-          <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-          </folding>
+          <caret line="110" column="55" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javashop/b2c/src/main/webapp/shop/admin/statistics/flow/flow_statistics.html">
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state relative-caret-position="376">
+          <caret line="1058" column="31" selection-start-line="1058" selection-start-column="31" selection-end-line="1058" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/ant/AbstractCatalinaTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/LocalStrings_ja.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/LocalStrings.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="755" column="6" selection-start-line="755" selection-start-column="6" selection-end-line="755" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/http/package.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/org/apache/catalina/core/StandardWrapperFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TomcatLearn/java/javax/servlet/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/CurrentSettings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2018">
+          <caret line="1139" column="518" lean-forward="true" selection-start-line="1139" selection-start-column="518" selection-end-line="1139" selection-end-column="518" />
+          <folding>
+            <element signature="e#5370#5375#0" expanded="true" />
+            <element signature="e#5496#5501#0" expanded="true" />
+            <element signature="e#17291#17296#0" expanded="true" />
+            <element signature="e#17300#17304#0" expanded="true" />
+            <element signature="e#17304#17308#0" expanded="true" />
+            <element signature="e#150387#150391#0" expanded="true" />
+            <element signature="e#150561#150565#0" expanded="true" />
+            <element signature="e#151883#151888#0" expanded="true" />
+            <element signature="e#249763#249768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

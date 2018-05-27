@@ -66,7 +66,12 @@
 	<mvc:interceptors>
 		<bean class="com.enation.eop.sdk.interceptor.ChangeRequestInterceptor"></bean>
 	</mvc:interceptors>
-
+    <!--在基于主机方式配置Spring时,Spring配置文件applicationContext.xml,你可能会见<context:annotation-config/>这样一条配置，它的作用是隐式的向Spring容器注册-->
+    <!--AutowiredAnnotationBeanPostProcessor,-->
+    <!--CommonAnnotationBeanPostProcessor,-->
+    <!--PersistenceAnnotationBeanPostProcessor,-->
+    <!--RequiredAnnotationBeanPostProcessor-->
+    <!--这4个BeanPostProcessor.注册这4个bean处理器主要的作用是为了你的系统能够识别相应的注解。-->
     <context:annotation-config />  
     <!--  未设置编码格式 
     <mvc:annotation-driven />

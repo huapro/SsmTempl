@@ -38,7 +38,7 @@ public class ComboPooledDataSourceCreator implements IDataSourceCreator {
 	}
 	
 	
-	public static void main(String args[]) throws SQLException{
+	public static void main(String[] args) throws SQLException{
 		IDataSourceCreator creator = new ComboPooledDataSourceCreator();
 		DataSource dataSource = creator.createDataSource("oracle.jdbc.driver.OracleDriver", "jdbc:oracle:thin:@localhost:1521:XE","javashop", "javashop");
 		java.sql.Connection con =  dataSource.getConnection();

@@ -76,7 +76,7 @@ public class AuthFilter extends UserFilter {
 				List<AuthAction> authActions = user.getAuthList();
 				if (CollectionUtils.isNotEmpty(authActions)) {
 					for (AuthAction authAction : authActions) {
-						String arth[] = authAction.getObjvalue().split(",");
+                        String[] arth = authAction.getObjvalue().split(",");
 
 						// authAction 的objectvalue中怕偶有空格。。。
 						for (String authStr : arth) {

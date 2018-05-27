@@ -245,7 +245,7 @@ public abstract class DBSolution implements IDBSolution {
 	 * @return
 	 */
 	public boolean executeSqls(String sql) {
-		String sqls[] = sql.split(DBSolution.EXECUTECHAR);
+        String[] sqls = sql.split(DBSolution.EXECUTECHAR);
 		JdbcTemplate jdbcTemplate =  SpringContextHolder.getBean("jdbcTemplate");
 		try {
 			for (int i = 0; i < sqls.length; i++) {

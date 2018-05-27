@@ -161,8 +161,8 @@ public class XmlDataOperation implements IDataOperation {
 			indexList.add(index);
 			
 		}
-		
-		String sql[]  =SqlParserFactory.getSqlParser().parseIndexSql(tableName, indexList);
+
+        String[] sql = SqlParserFactory.getSqlParser().parseIndexSql(tableName, indexList);
 		return sql;
 				
 		
@@ -344,8 +344,8 @@ public class XmlDataOperation implements IDataOperation {
 			//压入集合
 			fieldList.add(field);
 		}
-		
-		String sql[]  =SqlParserFactory.getSqlParser().parseAlterSql(tableName, fieldList);
+
+        String[] sql = SqlParserFactory.getSqlParser().parseAlterSql(tableName, fieldList);
 		return sql;
 		
 	}

@@ -158,7 +158,7 @@ public class GoodsSearchManager  implements IGoodsSearchManager{
 	}
 	
 	private String noSpace(String text){
-		String s[] = text.split(" ");
+        String[] s = text.split(" ");
 		String r = "";
 		for(int i=0;i<s.length;i++){
 			if(!"".equals(s[i]))

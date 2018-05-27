@@ -1,0 +1,7 @@
+.myclass {
+    -webkit-border-radius: myboder;
+    -moz-border-radius: myboder;
+    border-radius: myboder;
+    border-bottom-style: dotted;
+    background-color: #0db411;
+}

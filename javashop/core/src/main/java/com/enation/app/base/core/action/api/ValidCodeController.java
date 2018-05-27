@@ -151,7 +151,7 @@ public class ValidCodeController {
 	private Font getFont() {
 		int size =55;
 		Random random = new Random();
-		Font font[] = new Font[5];
+        Font[] font = new Font[5];
 		font[0] = new Font("Ravie", Font.PLAIN, size);
 		font[1] = new Font("Antique Olive Compact", Font.PLAIN, size);
 		font[2] = new Font("Forte", Font.PLAIN, size);
@@ -167,7 +167,7 @@ public class ValidCodeController {
 	 */
 	private Color getRandColor() {
 		Random random = new Random();
-		Color color[] = new Color[10];
+        Color[] color = new Color[10];
 		color[0] = new Color(32, 158, 25);
 		color[1] = new Color(218, 42, 19);
 		color[2] = new Color(31, 75, 208);

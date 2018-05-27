@@ -179,7 +179,7 @@ public abstract class SSLUtil {
 	 * @throws PayPalRESTException
 	 */
 	public static boolean validateCertificateChain(Collection<X509Certificate> clientCerts, Collection<X509Certificate> trustCerts, String authType) throws PayPalRESTException  {
-		TrustManager trustManagers[];
+        TrustManager[] trustManagers;
 		X509Certificate[] clientChain;
 		try {
 
@@ -320,7 +320,7 @@ public abstract class SSLUtil {
 		}
 
 		// get bytes from string
-		byte bytes[] = data.getBytes();
+        byte[] bytes = data.getBytes();
 		Checksum checksum = new CRC32();
 		// update the current checksum with the specified array of bytes
 		checksum.update(bytes, 0, bytes.length);

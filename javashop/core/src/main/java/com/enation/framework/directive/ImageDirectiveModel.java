@@ -84,6 +84,6 @@ public class ImageDirectiveModel implements TemplateDirectiveModel{
 		}
 	}
 	
-	public static void main(String args[]){
+	public static void main(String[] args){
 	}
 }

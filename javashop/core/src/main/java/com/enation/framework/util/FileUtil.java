@@ -495,7 +495,7 @@ public class FileUtil {
 	}
 
 	
-	public static void main(String arg[]) {
+	public static void main(String[] arg) {
  
 	}
 

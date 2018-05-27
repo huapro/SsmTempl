@@ -8,7 +8,7 @@ import java.io.IOException;
 public class CodeLines {
 
 	private static long sums = 0;
-	private static String suffixs[];
+    private static String[] suffixs;
 	private static String target;
 	
 	/** buffer flush 的最大值 * */

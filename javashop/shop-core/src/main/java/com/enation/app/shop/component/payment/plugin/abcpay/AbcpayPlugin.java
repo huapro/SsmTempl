@@ -14,6 +14,15 @@ import com.enation.app.shop.core.order.plugin.payment.AbstractPaymentPlugin;
 import com.enation.app.shop.core.order.plugin.payment.IPaymentEvent;
 import com.enation.framework.context.webcontext.ThreadContextHolder;
 
+/**
+ * @author Huapro 2018/5/24 上午8:47
+ * @email Hurpro@163.com
+ * @method method
+ * @param param
+ * @return methodreturntype
+ * @version V1.0.0
+ * @description description
+ */
 @Component
 public class AbcpayPlugin extends AbstractPaymentPlugin implements IPaymentEvent {
 

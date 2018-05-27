@@ -231,7 +231,7 @@ public abstract class UrlUtils {
 		
 	}
 	
-	public static void main(String args[]){
+	public static void main(String[] args){
 //		String str = UrlUtils.getParamStr("/search-cat-1.html");
 //		//System.out.println(str);
 //		//System.out.println( "9_1,8_2,2_1".replaceAll("(,|2_(\\d+)", "")  );

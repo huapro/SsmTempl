@@ -19,7 +19,7 @@
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
-
+	<!--自定义context-param,且自定义listener来获取这些信息2018-05-25  23:16 Charles-->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>

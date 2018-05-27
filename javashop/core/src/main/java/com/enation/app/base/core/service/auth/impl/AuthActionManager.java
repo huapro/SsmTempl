@@ -22,7 +22,7 @@ import com.enation.framework.util.StringUtil;
  * @author kingapex 2010-10-24下午10:38:33
  * @version wangxin 6.0升级改造 2016-2-23
  */
-@Service("authActionManager")
+@Service("authActionManager")    /*2018-05-25 23:09:49  Comphoner */
 public class AuthActionManager   implements IAuthActionManager {
 
 

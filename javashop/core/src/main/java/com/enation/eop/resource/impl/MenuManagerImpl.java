@@ -279,7 +279,7 @@ public class MenuManagerImpl   implements IMenuManager {
 		for (Menu menu:menuList) {
 			List<AuthAction> authList = permissionManager.getUesrAct(user.getUserid(), "menu");
 			for (AuthAction authAction:authList) {
-				String arth[]= authAction.getObjvalue().split(",");
+                String[] arth = authAction.getObjvalue().split(",");
 				for (int i = 0; i < arth.length; i++) {
 					if(Integer.parseInt(arth[i])==menu.getId()&&choosemenu(topMenuList, menu)){
 						topMenuList.add(menu);
