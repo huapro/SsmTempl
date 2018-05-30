@@ -102,7 +102,7 @@ public class BackendUiController {
 	
 	
  
-	public String getTheme() {
+	public String getTheme() {  //读取后台使用的模板
 		
 		EopSite site = this.getSite();
 		
